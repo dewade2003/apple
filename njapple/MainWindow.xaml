@@ -11,7 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
             <RowDefinition Height="50"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/> 
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Border Background="{DynamicResource ResourceKey=WindowTitleStyle}"/>
