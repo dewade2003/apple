@@ -1,0 +1,22 @@
+﻿<Window x:Class="njapple.PrintPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PrintWindow" Height="1000" Width="1000"
+        ShowInTaskbar="False"
+        WindowState="Maximized" Loaded="Window_Loaded" Visibility="Hidden">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="511" Margin="10,10,0,0" VerticalAlignment="Top" Width="936" Source="Assets/yunda.png" Stretch="UniformToFill"/>
+
+        <Grid Name="printGrid" HorizontalAlignment="Left" Height="511" Margin="10,10,0,0" VerticalAlignment="Top" Width="936" >
+            <TextBlock HorizontalAlignment="Left" Margin="139,148,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="72" Text="南俊苹果" FontFamily="SimSun" FontSize="16" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="268,115,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="145" FontFamily="SimSun" FontSize="16" FontWeight="Bold" Text="始发城市"></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="75,174,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="49" Width="338" FontFamily="SimSun" FontSize="20" FontWeight="Bold" Text="山西省运城市芮城县" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="269,230,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="136" Text="18710070030" FontFamily="SimSun" FontSize="16" FontWeight="Bold" RenderTransformOrigin="1.448,2.548"/>
+            <TextBlock x:Name="tbSJName" HorizontalAlignment="Left" Margin="487,115,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="145" Text="收件人" FontFamily="SimSun" FontSize="16" FontWeight="Bold"/>
+            <TextBlock x:Name="tbSJCity" HorizontalAlignment="Left" Margin="649,115,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="168" Text="目的城市" FontFamily="SimSun" FontSize="16" FontWeight="Bold"/>
+            <TextBlock x:Name="tbSJAddress" HorizontalAlignment="Left" Margin="482,148,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="75" Width="335" FontFamily="SimSun" FontSize="20" FontWeight="Bold" Text="收件人地址" TextAlignment="Center"/>
+            <TextBlock x:Name="tbSJNumber" HorizontalAlignment="Left" Margin="648,228,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="136" Text="收件人电话" FontFamily="SimSun" FontSize="16" FontWeight="Bold" RenderTransformOrigin="1.448,2.548"/>
+            <TextBlock x:Name="tbSJRemark" HorizontalAlignment="Left" Margin="592,373,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="80" Width="220" Text="备注" FontFamily="SimSun" FontSize="36" FontWeight="Bold"/>
+        </Grid>
+    </Grid>
+</Window>
