@@ -8,7 +8,7 @@ namespace WPFHelper.Window
     {
         public static void RepairWindowBehavior(System.Windows.Window wpfWindow)
         {
-            if (wpfWindow == null)
+            if (wpfWindow == null) 
                 return;
             wpfWindow.SourceInitialized += delegate
             {
